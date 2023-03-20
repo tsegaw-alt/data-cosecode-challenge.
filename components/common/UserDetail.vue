@@ -34,15 +34,18 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
+<script setup>
+
+defineProps({
+ 
     user: {
       type: Object,
       required: true,
     },
-  },
-};
+  });
 </script>
+
+<style scoped></style>
+
 
 <style scoped></style>
