@@ -47,5 +47,3 @@ defineProps({
 
 <style scoped></style>
 
-
-<style scoped></style>
